@@ -30,15 +30,30 @@ Each of these steps is carried out using separate LangChain agents, each respons
 
 ## 3. Architecture Flowchart
 
-Below is a flowchart that illustrates the architecture of the AI/ML Use Case Generation and Solution Proposal tool:
+The tool follows a clear and structured workflow to process the input and generate meaningful results. Here's a step-by-step breakdown of the process:
 
-User Input: Company Name 
--> Step 1: Gather Company Information via Google Custom Search API 
--> Step 2: Generate AI/ML Use Cases based on Company Profile (LangChain Agent) 
--> Step 3: Collect Resources (Datasets, Libraries, etc.) for Use Cases (LangChain) 
--> Step 4: Propose GenAI Solutions (LangChain) 
--> Results Displayed in Streamlit (Bullet Points) 
--> Export Results to CSV for Download
+1. **User Input: Company Name**
+   - The user provides the name of the company for which they want to generate AI/ML use cases and solutions.
+
+2. **Step 1: Gather Company Information**
+   - The tool gathers relevant information about the company (such as its industry, offerings, and strategic focus) using the **Google Custom Search API**.
+
+3. **Step 2: Generate AI/ML Use Cases**
+   - Based on the collected company information, the tool generates relevant AI/ML use cases using **LangChain agents**. These use cases are tailored to the company's profile and potential business functions.
+
+4. **Step 3: Collect Resources for Use Cases**
+   - For each generated AI/ML use case, the tool identifies and collects relevant resources, such as datasets, libraries, tools, and articles, using **LangChain**. These resources help implement the proposed use cases.
+
+5. **Step 4: Propose GenAI Solutions**
+   - The tool proposes tailored **GenAI** solutions based on the company's profile and the generated AI/ML use cases. These solutions leverage advanced AI technologies to address company challenges and improve processes.
+
+6. **Results Displayed in Streamlit**
+   - The results, including the company information, generated use cases, collected resources, and proposed solutions, are displayed in **Streamlit** as bullet points for easy readability.
+
+7. **Export Results to CSV**
+   - The user can download the results as a CSV file for further analysis or use.
+
+This straightforward process ensures that users get a complete, actionable set of AI/ML use cases, resources, and solutions tailored to their company's needs.
 
 
 ## 4. Results
