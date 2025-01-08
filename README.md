@@ -32,7 +32,13 @@ Each of these steps is carried out using separate LangChain agents, each respons
 
 Below is a flowchart that illustrates the architecture of the AI/ML Use Case Generation and Solution Proposal tool:
 
-User Input: Company Name -> Step 1: Gather Company Information via Google Custom Search API -> Step 2: Generate AI/ML Use Cases based on Company Profile (LangChain Agent) -> Step 3: Collect Resources (Datasets, Libraries, etc.) for Use Cases (LangChain) -> Step 4: Propose GenAI Solutions (LangChain) -> Results Displayed in Streamlit (Bullet Points) -> Export Results to CSV for Download
+User Input: Company Name 
+-> Step 1: Gather Company Information via Google Custom Search API 
+-> Step 2: Generate AI/ML Use Cases based on Company Profile (LangChain Agent) 
+-> Step 3: Collect Resources (Datasets, Libraries, etc.) for Use Cases (LangChain) 
+-> Step 4: Propose GenAI Solutions (LangChain) 
+-> Results Displayed in Streamlit (Bullet Points) 
+-> Export Results to CSV for Download
 
 
 ## 4. Results
